@@ -1,0 +1,369 @@
+:root {
+    --black: #16161A;
+    --blocksmoke: #27272E;
+    --blue-ocean: #5092D2;
+    --white: #FFFFFF;
+    font-family: 'Cinzel';
+}
+
+body {
+    background-color: var(--black);
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: 46.87vw;
+    background-image: url('../assets/main/fundo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.08vw 5.20vw;
+}
+
+.navigation {
+    display: flex;
+    width: 31.77vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 10.20vw;
+}
+
+.svg__navbar {
+    width: 27.08vw;
+}
+
+.link {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.729vw;
+}
+
+.button__blue {
+    background-color: var(--blue-ocean);
+    color: var(--black);
+    border-radius: 5px;
+    padding: 0.963vw 1.666vw;
+    font-size: 0.729vw;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.image__herois {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 59.895vw;
+}
+
+
+
+
+
+.button__white {
+    border: 2px solid var(--white);
+    box-sizing: border-box;
+    color: var(--white);
+    border-radius: 5px;
+    padding: 0.859vw 1.56vw;
+    margin-left: 0.833vw;
+    font-size: 0.729vw;
+    text-decoration: none;
+}
+
+.wrapper__article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5.31vw;
+}
+
+.conteiner {
+    position: relative;
+    width: 79%;
+    height: 30.57vw;
+    z-index: 1;
+}
+
+.main__article {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    color: var(--white)
+}
+
+.main__article__title {
+    font-size: 3.33vw;
+    line-height: 90%;
+    margin-bottom: 0.833vw;
+}
+
+.main__article h2 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size:  0.937vw;
+    line-height: 160%;
+    margin-bottom: 2.6vw;
+}
+
+.video__article {
+    position: absolute;
+    bottom: 7.266vw;
+    right: 12.915vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video__article img {
+    position: absolute;
+}
+
+.image_video__article {
+    width: 25.83vw;
+}
+
+.play_video__article {
+    width: 0.947vw;
+}
+
+.circle_video__article {
+    width: 3.789vw;
+}
+
+.layer__blur {
+    width: 100%;
+    height: 8.124vw;
+    background: var(--black);
+    filter: blur(20px);
+}
+
+
+
+
+
+
+.elenco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 9.166vw;
+}
+
+.title__elenco {
+    font-weight: 700;
+    color: var(--white);
+    font-size: 2.5vw;
+    margin-bottom: 1.25vw;
+}
+
+.conteiner__elenco {
+    width: 79.166vw;
+    height: 29.166vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.figure__elenco {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.figure__elenco h2 {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 2;
+
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.666vw;
+    text-align: center;
+    margin: 2.083vw 0;
+}
+
+.kratos__elenco, .atreus__elenco, .freya__elenco, .angrboda__elenco {
+    width: 19.166vw;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.background__elenco {
+    position: absolute;
+    background-color: var(--blocksmoke);
+    height: 21.875vw;
+    width: 19.166vw;
+    bottom: 0;
+}
+
+.button__elenco {
+    background: none;
+    border: none;
+    margin-top: 8vw;
+}
+
+.wrapper__elenco {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.left__elenco, .right__elenco {
+    width: 1.5625vw;
+}
+
+
+
+
+.info {
+    position: relative;
+    width: 77.813vw;
+    height: 34.53vw;
+    margin: 18.28vw auto 0;
+}
+
+.container__info {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article__info {
+    color: var(--white);
+    margin-bottom: 9vw;
+}
+
+.article__info h2 {
+    font-size: 2.5vw;
+    font-weight: 700;
+    line-height: 3.385vw;
+    margin-bottom: 0.833vw;
+}
+
+.article__info p {
+    font-family: 'Inter';
+    font-size: 0.833vw;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.figure__info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.figure__info--img {
+    width: 19.166vw;
+}
+
+.background__info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 82.083vw;
+    z-index: -1;
+}
+
+
+
+
+
+.weapons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 79.17vw;
+    height: 31.83vw;
+    margin: 18.33vw auto 0;
+    margin-bottom: 10.73vw;
+}
+
+.weapons h2 {
+    color: var(--white);
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+
+.container__weapons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.background__weapons {
+    position: relative;
+    background: var(--blocksmoke);
+    width: 39.17vw;
+    height: 27.084vw;
+}
+
+.article__weapons {
+    position: absolute;
+    left: 5vw;
+    bottom: 4.3vw;
+    z-index: 1;
+}
+
+.article__weapons h3 {
+    color: var(--white);
+    font-size: 1.66vw;
+    line-height: 2.24vw;
+    font-weight: 700;
+    margin-bottom: 0.833vw;
+}
+
+.article__weapons p {
+    font-family: 'Inter';
+    color: var(--white);
+    font-size: 0.937vw;
+    line-height: 160%;
+    font-weight: 400;
+    margin-bottom: 3.046vw;
+}
+
+.axe__weapons {
+    position: absolute;
+    width: 15.5vw;
+    bottom: 0;
+    right: 0;
+}
+
+.bow__weapons {
+    position: absolute;
+    width: 17.5vw;
+    bottom: 0;
+    right: 0.5vw;
+}
+
+::-webkit-scrollbar {
+    background: var(--blocksmoke);
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--blue-ocean);
+}
